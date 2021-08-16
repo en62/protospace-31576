@@ -43,7 +43,7 @@
           <% end %> 
         <% end %>
         <ul class="comments_lists">
-          <%= @comments.each do |comment| %>
+          <% @comments.each do |comment| %>
           <%# 投稿に紐づくコメントを一覧する処理を記述する %>
             <li class="comments_list">
               <%= comment.text %>
